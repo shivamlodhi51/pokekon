@@ -95,11 +95,17 @@ input[type="text"] {
 }
 
 .cards {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   align-items: center;
-  gap: 3.2rem;
+  gap: 3.2rem; */
 }
 
 .pokemon-card {
